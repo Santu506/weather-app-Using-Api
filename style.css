@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'poppins', sans-sarif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.card{
+    width:90%;
+    max-width: 450px;
+    margin:100px auto 0;
+    background: linear-gradient(135deg, #00feba,#5b548a);
+    padding: 35px 26px;
+    border-radius: 1.4rem;
+    text-align: center;
+    color: #ebfffc;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    flex: 1;
+    height:50px;
+    border-radius:2rem ;
+    font-size: 1.1rem;
+    padding: 10px 25px;
+    margin-right: 16px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color:#ebfffc ;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.search button img{
+    width:1rem;
+    margin-top:.5rem;
+}
+.whether h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.whether h2{
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+ 
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 30px auto 0;
+}
+.details .humidity, .wind-speed{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.humidity img{
+    width: 30px;
+    margin-right: 10px;
+}
+ .humidity .temp,.wind{
+    font-size: 1.75rem;
+ }
+.wind-speed img{
+    width: 30px;
+    margin-right: 10px;
+}
+.whether{
+    display: none;
+}
